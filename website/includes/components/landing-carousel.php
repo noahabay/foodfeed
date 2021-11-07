@@ -11,12 +11,25 @@
                 <div class="carousel-item">
                     <img class="d-block w-100" src="images/stock3.jpg" alt="Third slide">
                 </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/stock4.jpg" alt="Fourth slide">
+                </div>
             </div>
         </div>
     </div>
+
     <div id = "layer2">
-        <h1>Heading</h1>
     </div>
+
+    <div id = "layer3">
+        <div class = "container">
+            <div class = "col-lg-12">
+                <br>
+                <h1 class = "brand">food<i class="bi bi-egg-fried egg-icon"></i>feed</h1>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 
