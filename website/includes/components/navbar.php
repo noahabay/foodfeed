@@ -11,15 +11,6 @@
       <li class="nav-item">
         <a class="nav-item nav-link" href="about.php">Team</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-item nav-link" href="#">Rulings</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-item nav-link" href="#">Legislation</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-item nav-link" href="#">News & Opinion</a>
-      </li>
 
       <li class="nav-item">
         <a class="nav-item nav-link" href="users.php">Users</a>
