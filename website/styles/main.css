@@ -1,0 +1,43 @@
+.navbar-brand{
+    font-weight: bolder;
+}
+
+.carousel-inner{
+    width:100%;
+    max-height: 50vh;
+}
+
+.carousel-inner img{
+    -webkit-filter: blur(10px); /* Safari 6.0 - 9.0 */
+    filter: blur(10px);
+    -webkit-transform: blur(10px); /* Safari 6.0 - 9.0 */
+    transform: scale(1.03);
+}
+
+#outerWrap {
+    position: relative;
+    z-index: 0;
+    height: 400px;
+    width: 100%;
+}
+
+#layer1 {
+    position: absolute;
+    z-index: 1;
+    height: 250px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    
+}
+
+
+#layer2 {
+    position: absolute;
+    z-index: 2;
+    background-color: #FC0;
+    height: 250px;
+    width: 100px;
+    top: 120px;
+    left: 260px;
+}
