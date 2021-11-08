@@ -1,5 +1,7 @@
 <?php
+    session_name('foodfeed');
     session_start();
+    $_SESSION['userName'] = "hello";
 ?>
 <?php include "db/db.php" ?>
 <?php include "functions/functions.php" ?>
