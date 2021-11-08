@@ -9,10 +9,13 @@ function showResult(str) {
     if (this.readyState==4 && this.status==200) {
       document.getElementById("live-search").innerHTML=this.responseText;
     }
+
   }
   xmlhttp.open("GET","includes/components/searchresults.php?searchQuery="+str, true);
   xmlhttp.send();
 }
+
+
 </script>
 
 

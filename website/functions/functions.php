@@ -6,4 +6,5 @@ function sanitizeData ($data){
     $data = trim($data);
     return $data;
 }
+
 ?>
