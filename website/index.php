@@ -1,7 +1,7 @@
 <?php include "includes/header.php" ?>
 
 <div class = "container">
-    <?php include "includes/components/landing-carousel.php" ?>
+    <?php include "includes/components/landingcarousel.php" ?>
 </div>
 
 <?php include "includes/footer.php" ?>

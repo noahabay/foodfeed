@@ -16,7 +16,8 @@ h1.brand{
 }
 
 .btn-success{
-    background-color: rgb(255, 185, 0) !important;;
+    background-color: rgb(255, 185, 0) !important;
+    color: black;
 }
 
 /* CSS related to the landing page carousel: */
@@ -106,6 +107,7 @@ h1.brand{
     flex-direction: row;
 }
 
+
 .search-field {
     width: 100%;
     padding: 10px 35px 10px 15px;
@@ -131,8 +133,19 @@ h1.brand{
     padding-top: 1em;
 }
 
-/* The message box is shown when the user clicks on the password field */
 
+
+/* Login area and button styles:  */
+
+.login-button{
+    display: block;
+    float: left;
+    margin-right: .5em;
+}
+
+.loginfailed{
+    text-align: center;
+}
 
 /* Styles related to text based icons and graphics: */
 .infographics{
