@@ -17,5 +17,5 @@ FROM `users`;
 
 -- Concat the user salt and peppers together with the word "password" then calculate their MD5 checksum and set it to the user's passwordHash:
 INSERT INTO `userHashes`(privateID, passwordHash)
-SELECT privateID, MD5(CONCAT(userSalt, MD5("password"), userPepper))
+SELECT privateID, MD5(CONCAT(userSalt, md5("password"), userPepper))
 FROM `userSaltAndPepper`;
