@@ -8,10 +8,10 @@ function showUserResult(str) {
     if (xmlhttp.readyState == XMLHttpRequest.DONE) {
         console.log(xmlhttp.responseText);
         if(xmlhttp.responseText.includes("Username is already taken")){
-            document.getElementById("validationDefaultUsername").setCustomValidity("Username is Taken");
+            document.getElementById("validationUsername").setCustomValidity("Username is already in use");
         }
         if(xmlhttp.responseText.includes("Username is valid")){
-            document.getElementById("validationDefaultUsername").setCustomValidity('');
+            document.getElementById("validationUsername").setCustomValidity('');
         }
     }
 
@@ -29,31 +29,31 @@ function showEmailResult(str) {
     if (xmlhttp.readyState == XMLHttpRequest.DONE) {
         console.log(xmlhttp.responseText);
         if(xmlhttp.responseText.includes("Email is already taken")){
-            document.getElementById("validationDefaultUsername").setCustomValidity("Username is Taken");
+            document.getElementById("validationEmail").setCustomValidity("Email is already in use");
         }
         if(xmlhttp.responseText.includes("Email is valid")){
-            document.getElementById("validationDefaultUsername").setCustomValidity('');
+            document.getElementById("validationEmail").setCustomValidity('');
         }
     }
 
   }
-  xmlhttp.open("GET","includes/components/checkemail.php?email="+str, true);
+  xmlhttp.open("GET","includes/components/checkuseremail.php?email="+str, true);
   xmlhttp.send();
 }
 
 
 </script>
 
-<form action = "loginpage.php" method = "POST">
+<form action = "userregistration.php" method = "POST">
     <h5><i class="bi bi-person-lines-fill"></i> About you</h5>
     <div class="form-row">
         <div class="col-md-6 mb-6">
-            <label for="validationDefault01">First name</label>
-            <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="" required>
+            <label for="validationfName">First name</label>
+            <input type="text" class="form-control" name = "fName" id="validationfName" placeholder="First name" value="" required>
         </div>
         <div class="col-md-6 mb-6">
-            <label for="validationDefault02">Last name</label>
-            <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="" required>
+            <label for="validationlName">Last name</label>
+            <input type="text" class="form-control" name = "lName" id="validationlName" placeholder="Last name" value="" required>
         </div>
 
     </div>
@@ -63,11 +63,11 @@ function showEmailResult(str) {
     <div class="form-row">
         <div class="col-md-6 mb-6">
         <label for="validationEmail">Email address</label>
-        <input type="email" class="form-control" id="validationEmail" aria-describedby="emailHelp" placeholder="Enter email">
+        <input type="email" class="form-control" name = "email" id="validationEmail" aria-describedby="emailHelp" placeholder="Enter email" onkeyup="showEmailResult(this.value)" required>
         </div>
         <div class="col-md-6 mb-6">
-            <label for="validationPhone">Last name</label>
-            <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="" required>
+            <label for="validationPhone">Phone Number</label>
+            <input type="phone" class="form-control" name = "phone" id="validationPhone" placeholder="Phone Number" value="" required>
         </div>
 
     </div>
@@ -99,12 +99,12 @@ function showEmailResult(str) {
     <h5><i class="bi bi-door-open"></i> Login Credentials</h5>
     <div class="form-row">
         <div class="col-md-6 mb-6">
-            <label for="validationDefaultUsername">Username</label>
+            <label for="validationUsername">Username</label>
             <div class="input-group">
                 <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroupPrepend2"><i class="bi bi-person-badge"></i></span>
+                    <span class="input-group-text" id="inputGroupPrepend1"><i class="bi bi-person-badge"></i></span>
                 </div>
-                <input type="text" class="form-control" id="validationDefaultUsername" name="username"  placeholder="Username" aria-describedby="inputGroupPrepend2" onkeyup="showUserResult(this.value)" required>
+                <input type="text" class="form-control" id="validationUsername" name="username"  placeholder="Username" aria-describedby="inputGroupPrepend1" onkeyup="showUserResult(this.value)" required>
             </div>
         </div>
         
@@ -126,8 +126,8 @@ function showEmailResult(str) {
     <h5>Terms and Conditions</h5>
     <div class="form-group">
         <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-        <label class="form-check-label" for="invalidCheck2">
+        <input class="form-check-input" type="checkbox" value="" id="termsCheck" required>
+        <label class="form-check-label" for="termsCheck">
             Agree to terms and conditions
         </label>
         </div>
