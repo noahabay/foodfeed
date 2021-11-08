@@ -100,36 +100,45 @@ h1.brand{
     width: 100%;
   }
   
-  /* The point of this tutorial is here */
-  .form {
+/* The point of this tutorial is here */
+.form {
     display: flex;
     flex-direction: row;
-  }
+}
 
-  .search-field {
+.search-field {
     width: 100%;
     padding: 10px 35px 10px 15px;
     border: none;
     border-radius: 100px;
     outline: none;
-  }
-  
-  .search-button {
+}
+
+.search-button {
     background: transparent;
     border: none;
     outline: none;
     margin-left: -33px;
-  }
-  
-  .search-button img {
+}
+
+.search-button img {
     width: 20px;
     height: 20px;
     object-fit: cover;
-  }
+}
 
+.search-results{
+    padding-top: 1em;
+}
+
+/* The message box is shown when the user clicks on the password field */
+
+
+/* Styles related to text based icons and graphics: */
 .infographics{
     text-align: center;
 }
+
 .infographics i{
     font-size: 8em;
     text-align: center;
@@ -145,21 +154,15 @@ and (max-width : 480px) {
     }
 }
  
-/* Smartphones (landscape) ----------- */
 @media only screen
 and (min-width : 321px) {
-/* Styles */
 }
  
-/* Smartphones (portrait) ----------- */
 @media only screen
 and (max-width : 320px) {
-/* Styles */
 }
  
-/* iPads (portrait and landscape) ----------- */
 @media only screen
 and (min-width : 768px)
 and (max-width : 1024px) {
-/* Styles */
 }
