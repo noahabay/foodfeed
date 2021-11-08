@@ -34,15 +34,8 @@
 
                 </div>
 
-                    
-                <div class="search-container">
-                    <form action="index.php" method="GET" class="form">
-                        <input type="search" class="form-control"  placeholder="Search" class="search-field" />
-                        <button type="submit" class="search-button">
-                        <img src="icons/search.png">
-                        </button>
-                    </form>
-                </div>
+                <?php include 'includes/components/searcharea.php' ?>    
+
             </div>
 
 
