@@ -36,6 +36,7 @@
       </span>
 
       <?php
+      include "includes/components/loginmodal.php";
     }
     ?>
 
