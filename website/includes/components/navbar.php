@@ -21,7 +21,7 @@
     if(isset($_SESSION["userName"])){
       ?>
       <span class="navbar-text">
-        <button  class="btn btn-info btn-lg"><a href="users.php?userID=<?php echo($_SESSION["userID"])?>" style = "text-decoration: none">My Profile <i class="bi-person-circle" style="font-size: 1em"></i></i></a>  </button>  
+        <button  class="btn btn-success btn-lg"><a href="users.php?userID=<?php echo($_SESSION["userID"])?>" style = "text-decoration: none">My Profile <i class="bi-person-circle" style="font-size: 1em"></i></i></a>  </button>  
       </span>
 
       <span class="navbar-text">
