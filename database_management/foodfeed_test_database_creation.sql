@@ -22,15 +22,13 @@ CREATE TABLE userSaltAndPepper(
 	privateID varchar(255),
     userSalt varchar(32),
     userPepper varchar(32),
-    PRIMARY KEY (privateID),
-    FOREIGN KEY (privateID) REFERENCES users(privateID)
+    PRIMARY KEY (privateID)
     );
     
 CREATE TABLE userHashes(
 	privateID varchar(255),
 	passwordHash varchar(32),
-    PRIMARY KEY (privateID),
-    FOREIGN KEY (privateID) REFERENCES users(privateID)
+    PRIMARY KEY (privateID)
     );
     
 CREATE TABLE restaurantChains(

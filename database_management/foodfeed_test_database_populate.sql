@@ -19,3 +19,6 @@ FROM `users`;
 INSERT INTO `userHashes`(privateID, passwordHash)
 SELECT privateID, MD5(CONCAT(userSalt, md5("password"), userPepper))
 FROM `userSaltAndPepper`;
+
+ INSERT INTO `userHashes` VALUES 
+('a1ce0152e0fe13f98f550d34695ee2d9', MD5(CONCAT('{$userSalt}', md5('{$password}'),'{$userPepper}')));
