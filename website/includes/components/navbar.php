@@ -6,10 +6,10 @@
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="about.php">About<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-item nav-link" href="about.php">Team</a>
+        <a class="nav-item nav-link" href="team.php">Team</a>
       </li>
 
       <li class="nav-item">
