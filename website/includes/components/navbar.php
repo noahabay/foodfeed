@@ -1,12 +1,12 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand brand" href="index.php">food<i class="bi bi-egg-fried egg-icon"></i>feed</a>
+  <a class="navbar-brand brand" href="index.php">Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="about.php">About<span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="about.php">About</a>
       </li>
       <li class="nav-item">
         <a class="nav-item nav-link" href="team.php">Team</a>
@@ -29,7 +29,7 @@
     else{
       ?>
       <span class="navbar-text">
-      <button class="btn btn-outline-secondary btn-lg login-button"  data-toggle="modal" data-target="#newAccountModal">New User <i class="bi-person-plus" style="font-size: 1rem;"></i></button>
+      <button class="btn btn-outline-secondary btn-lg login-button"  data-toggle="modal" data-target="#newAccountModal">Sign Up <i class="bi-person-plus" style="font-size: 1rem;"></i></button>
         <button  class="btn btn-success btn-lg"  data-toggle="modal" data-target="#loginModal"> <a href="#" style = "text-decoration: none">Login &nbsp;<i class="bi-person-circle" style="font-size: 1em"></i></i></a>  </button>  
       </span>
 

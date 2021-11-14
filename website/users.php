@@ -1,14 +1,15 @@
 <?php include "includes/header.php" ?>
 
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Registered Users</h1>
-  </div>
-</div>
-
 <main>
     <div class = "container">
-       
+    <div class = "logo-align">
+    <img src="images/logo.png" class ="logo-image" alt="" srcset="">
+    </div>
+    <br>
+    <div class = "logo-align logo-align-text">
+        <h1 class = "brand">Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</h1>
+        <h1>Partners</h1>
+    </div>
     </div>
 </main>
 
