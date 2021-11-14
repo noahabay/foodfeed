@@ -12,7 +12,7 @@
         if(isset($_SESSION["userName"])){
       ?>
         <li class="nav-item">
-          <a class="nav-item nav-link" href="account.php"><button type="button" class="btn btn-secondary"><i class="bi-person-circle"></i> My Account</button></a>
+          <a class="nav-item nav-link" href="account.php"><button type="button" class="btn btn-secondary"><i class="bi-person-circle"></i> My Deliveries</button></a>
         </li>
 
         <li class="nav-item">
@@ -26,16 +26,13 @@
 
     <?php } ?>
 
-      <li class="nav-item">
-        <a class="nav-item nav-link" href="team.php"> About the Grocery Pool Team</a>
-      </li>
     </ul>
     <?php
     if(isset($_SESSION["userName"])){
       ?>
       <span class="navbar-text">
       <button  class="btn btn-outline-secondary btn-lg btn-lg"><a href="logout.php" style = "text-decoration: none">Logout <i class="bi-door-open" style="font-size: 1em"></i></i></a>  </button>  
-        <button  class="btn btn-success btn-lg"><a href="users.php?userID=<?php echo($_SESSION["userID"])?>" style = "text-decoration: none">My Profile <i class="bi-person-circle" style="font-size: 1em"></i></i></a>  </button>  
+        <button  class="btn btn-success btn-lg"><a href="account.php?userID=<?php echo($_SESSION["userID"])?>" style = "text-decoration: none">My Profile <i class="bi-person-circle" style="font-size: 1em"></i></i></a>  </button>  
       </span>
       <?php
     }

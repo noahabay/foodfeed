@@ -38,9 +38,6 @@
                     </div>
 
                 </div>
-
-                <?php include 'includes/components/searcharea.php' ?>    
-
             </div>
 
 
@@ -119,7 +116,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="card">
+                    <div class="card locker-system">
                         <div class="card-body">
                         <h1>Bin and Locker System </h1>
                             <p class="card-text"><b>Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</b> uses a system of standardized bins and lockers that can be retrofitted to the building. The locker system can be modular, allowing it to be easily incorporated in to small spaces (like under a stairwell). The branding and aesthetics of the lockers will be important for communicating the concept of <b>Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</b> to the public.</p>
@@ -177,7 +174,7 @@
             <div class = "row">
                 <h1>Lean Canvas</h1>
 
-                <div class="col-sm-6 lean-canvas">
+                <div class="col-md-6 lean-canvas">
                     <div class="card" style="">
                         <div class="card-body">
                             <h5 class="card-title"><i class="bi bi-exclamation-octagon"></i>
@@ -196,7 +193,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-3 lean-canvas">
+                <div class="col-md-3 lean-canvas">
                     <div class="card" style="">
                         <div class="card-body">
                             <h5 class="card-title"><i class="bi bi-signpost-2"></i> Existing Alternatives</h5>
@@ -215,7 +212,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-3 lean-canvas">
+                <div class="col-md-3 lean-canvas">
                     <div class="card" style="">
                         <div class="card-body">
                             <h5 class="card-title"><i class="bi bi-clipboard-data"></i> Key Metrics</h5>
@@ -233,7 +230,7 @@
                     </div>
                 </div>
                 
-                <div class="col-sm-3 lean-canva`s">
+                <div class="col-md-3 lean-canvas">
                     <div class="card" style="">
                         <div class="card-body">
                             <h5 class="card-title"><i class="bi bi-gear"></i> High Level Concept</h5>
@@ -248,7 +245,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-5 lean-canvas">
+                <div class="col-md-5 lean-canvas">
                     <div class="card" style="">
                         <div class="card-body">
                             <h5 class="card-title"><i class="bi bi-file-post"></i> Channels</h5>
@@ -267,7 +264,7 @@
                 </div>
 
 
-                <div class="col-sm-4 lean-canvas">
+                <div class="col-md-4 lean-canvas">
                     <div class="card" style="">
                         <div class="card-body">
                             <h5 class="card-title"><i class="bi bi-door-open"></i> Unique Value Proposition</h5>
@@ -282,7 +279,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-3 lean-canvas">
+                <div class="col-md-4 lean-canvas">
                     <div class="card" style="">
                         <div class="card-body">
                             <h5 class="card-title"><i class="bi bi-trophy"></i> Unfair Advantage</h5>
@@ -297,7 +294,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-3 lean-canvas">
+                <div class="col-md-4 lean-canvas">
                     <div class="card" style="">
                         <div class="card-body">
                             <h5 class="card-title"><i class="bi bi-people"></i> Customer Segments</h5>
@@ -314,7 +311,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-3 lean-canvas">
+                <div class="col-md-4 lean-canvas">
                     <div class="card" style="">
                         <div class="card-body">
                             <h5 class="card-title"><i class="bi bi-person-check"></i> Early Adopters</h5>
@@ -328,39 +325,91 @@
                     </div>
                 </div>
 
-                <div class="col-sm-3 lean-canvas">
-                    <div class="card" style="">
+                <div class="col-md-6 lean-canvas">
+                    <div class="card" >
                         <div class="card-body">
                             <h5 class="card-title"><i class="bi bi-file-earmark-spreadsheet"></i> Cost Structure</h5>
-                            <p class="card-text">
-                            <table>
+                                <h6><b>Labour costs:</b><h6>
+                                <p>Developer Salaries: $40/hr</p>
+                            <table class="table">
                                 <tbody>
+                                     <tr>
+                                        <td><b>Description</b></td>
+                                        <td><b>Time - Hours</b></td>
+                                        <td><b>Price</b></td>
+                                    </tr>    
+
                                     <tr>
                                         <td>Research</td>
+                                        <td>50 hours</td>
                                         <td>$2,000</td>
                                     </tr>
                                     <tr>
                                         <td>Development</td>
-                                        <td>$10,000</td>
+                                        <td>400 hours</td>
+                                        <td>$16,000</td>
                                     </tr>
                                     <tr>
-                                        <td>Web Hosting</td>
-                                        <td>$6,000</td>
+                                        <td>Testing</td>
+                                        <td>100 hours</td>
+                                        <td>$4,000</td>
                                     </tr>
                                     <tr>
-                                        <td>Security Penetration Testing</td>
+                                        <td>Prototype Deployment</td>
+                                        <td>40 hours</td>
+                                        <td>$1,600</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td></td>
+                                        <td><b>590 hours</b></td>
+                                        <td><b>$23,600</b></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <br>
+
+                            <h6><b>Fixed Costs (1 year):</b><h6>
+
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td><b>Description</b></td>
+                                        <td><b>Price</b></td>
+                                    </tr>    
+                                        <td>Web Hosting / VPS / SSL Certificate:</td>
+                                        <td>$500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Software Licensing</td>
+                                        <td>$1000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Web security testing</td>
                                         <td>$1,000</td>
                                     </tr>
                                     <tr>
-                                        <td>Maintenance</td>
+                                        <td>Promotion and Advertising</td>
                                         <td>$5,000</td>
                                     </tr>
                                     <tr>
-                                        <td>Miscelaneous</td>
-                                        <td>$1,000</td>
+                                        <td>Miscellaneous</td>
+                                        <td>$500</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><b>$8,000</b></td>
                                     </tr>
 
+                                    <tr>
+                                        <td></td>
+                                        <td><b></b></td>
+                                    </tr>
 
+                                    <tr>
+                                        <td>Total</td>
+                                        <td><b>$31,600</b></td>
+                                    </tr>
                                 </tbody>
                             </table>
                             </p>
@@ -368,7 +417,34 @@
                     </div>
                 </div>
 
+                <div class="col-md-6 lean-canvas">
+                    <div class="card" style="">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-check2-circle"></i> Solution</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Grocery Pool works much like carpooling does - a group of people come together to coordinate grocery pickups</li>
+                                    <li>This helps our customers save time and money</li>
+                                    <li>Grocery Pool helps to minimize the miles driven per food item from store to door, helping to reduce carbon emissions</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-md-12 lean-canvas">
+                    <div class="card" style="">
+                        <div class="card-body">
+                            <h5 class="card-title"> <i class="bi bi-shop"></i> Store Item Demo</h5>
+                            <p class="card-text">
+                                <p> Search for an item:</p>
+                            <?php include 'includes/components/searcharea.php' ?> 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                   
             </div>
 
 

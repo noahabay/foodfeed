@@ -1,3 +1,4 @@
+
 /* CSS For page branding: */
 .egg-icon{
     color: rgb(0, 146, 0) !important;
@@ -171,7 +172,7 @@ h1.brand{
     margin-right: auto  ;
 }
 
-.grid td, th{
+.locker-system td{
     border-style: solid;
     border-width: 10px;
     border-color: green;
@@ -233,6 +234,10 @@ h1.brand{
 }
 
 
+.list-image{
+    height: 100px;
+}
+
 /* Weekdays (Mon-Sun) */
 .weekdays {
   margin: 0;
@@ -269,6 +274,7 @@ h1.brand{
 }
 
 .days li {
+    font-size: 2em;
     background-color: rgba(238, 238, 238, 0.5);
 }
 
@@ -292,6 +298,9 @@ h1.brand{
     width: 150px;
 }
 
+.card-deck{
+    margin-top: 1em;
+}
 
 
 /* Highlight the "current" day */
@@ -304,6 +313,41 @@ h1.brand{
 .lean-canvas{
     margin-bottom: 2em;
 }
+
+.order-history{
+    margin-bottom: 1em;
+}
+
+input[type="checkbox"]{
+    width: 30px; /*Desired width*/
+    height: 30px; /*Desired height*/
+  }
+
+.order-header{
+    color: white;
+    background-color: #23921E;
+}
+.checkbox-align{
+    text-align: center;
+}
+
+.btn-outline-success {
+    color: white;
+}
+
+.footer{
+    display: inline-block;
+    width: 100%;
+    background-color: red;
+}
+
+.card{
+    transition: box-shadow .3s;
+}
+.card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
 
 @media only screen
 and (min-width : 320px)
