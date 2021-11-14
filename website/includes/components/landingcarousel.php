@@ -56,10 +56,12 @@
             <p>
             <hr>
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-lg-6">
                     <div class="card">
                         <div class="card-body">
                             <h1> Conceptual Diagram </h1>
+                            <p>Tenants in a shared apartment building create grocery orders with the web application.</p>
+                            <p>One tenant retrieves the aggregated grocery orders from the store.</p>  
                             <div class = "infographics">
                                 <i class="bi bi-person-circle accent-color"></i>
                                 <i class="bi bi-person-fill"></i>
@@ -68,12 +70,11 @@
                                 <i class="bi bi-person-fill"></i>  
                                 <i class="bi bi-person-fill"></i>
                                 <i class="bi bi-building"></i>   
-                                <p>Tenants in a shared apartment building communicate with one another on the Grocery Pool platform.</p>       
+                                    
                             </div>
                             <div class = "infographics">
-                                <i class="bi bi-arrow-bar-down"></i>
+                                <i class="bi bi-arrow-down-up"></i>
                                 <i class="bi bi-cloud"></i>
-                                <i class="bi bi-arrow-bar-up"></i>
                             </div>
 
                             <div class = "infographics">
@@ -84,12 +85,11 @@
                                 <i class="bi bi-basket3-fill small"></i>
                                 <i class="bi bi-basket3-fill small"></i>
                                 <i class="bi bi-truck"></i>
-                                <p>One tenant retrieves the grocery orders for the others using their own vehicle.</p>
+                                
                             </div>
 
                             <div class = "infographics">
-                                <i class="bi bi-arrow-bar-down"></i>
-                                <i class="bi bi-arrow-bar-up"></i>
+                            <i class="bi bi-arrow-down-up"></i>
                             </div>
 
                             <div class = "infographics">
@@ -98,7 +98,7 @@
                                 <i class="bi bi-shop-window"></i>
                             </div>
                             <br>
-                            <p class="card-text"><b>Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</b> helps neighbours connect with one another to pool their time when gathering groceries. This platform provides the opportunity for an enterprising tenant in a building to take the lead on the grocery delivery service, or for tenants do distribute the responsibility amongst themselves.</p>
+                            <p class="card-text"><b>Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</b> helps neighbours connect with one another to pool their time when gathering groceries. This platform provides the opportunity for an enterprising tenant in a building to take the lead on the grocery delivery service, or for tenants do distribute the responsibility amongst themselves and help save each other time.</p>
                             <p> <b>Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</b> uses a standardized system of bins to help the delivery person be able to quantify how many bins they can carry in their vehicle. This also ensures that the items will fit in the locker. The volume of the items will be calculated during the ordering process to ensure all items will fit in the locker.
 
                                 
@@ -111,11 +111,14 @@
                                 </tbody>
                             </table>
                             <br>
+
+                            <p>The web application could also be adapted to help provide communally driven access to other business and services, based on the feedback of our early adopters.</p>
+
                             <a href="#" class="btn btn-success">Find out more</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-lg-6">
                     <div class="card">
                         <div class="card-body">
                         <h1>Bin and Locker System </h1>
@@ -140,7 +143,7 @@
                                 </tbody>
                             </table>
                             <br>
-                            <p class="card-text"><b>Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</b>'s lockers are secured using NFC and can be opened with either a keyfob or smartphone application. This both secures the order from theft, and protects the rental agency from issues arising from lost or stolen keys. <b>You could think of this kind of like a mailbox for groceries.</b> Since the tenants of the building are retrieving the orders, the locker be placed inside the security doors.</p>
+                            <p class="card-text"><b>Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</b>'s lockers are secured using NFC and can be opened with either a keyfob or smartphone application. This secures the items from theft and protects the rental agency from issues arising from lost or stolen keys. <b>You could think of this kind of like a mailbox for groceries.</b> Since the tenants of the building are retrieving the orders, the locker be placed inside the security doors.</p>
 
                             <table class="grid">
                                 <tbody>
@@ -160,7 +163,7 @@
                             </table>
 
                             <br>
-                            <p>The bin and lockers are reusable and repurposable, so they are a low risk and low cost investment for the property owner if purchased wholesale. Using a locker minimizes the physical requirements on the person delivering the items. In some places, secured storage for a dolly may be incorporated in to the locker system. Smaller buildings may be able to be serviced with a single locker.</p>
+                            <p>The bin and lockers are reusable and repurposable, so they are a low risk and low cost investment for the property owner if purchased wholesale. Using a locker minimizes the physical requirements on the person delivering the items. In some places, secured storage for a dolly may be incorporated in to the locker system. <b> In other cases where space does not permit, the binned items can instead be delivered to the door.</b></p>
 
                             
                             <a href="#" class="btn btn-success">Find out more</a>
@@ -174,17 +177,198 @@
             <div class = "row">
                 <h1>Lean Canvas</h1>
 
-                <div class="col-sm-6">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-sm-6 lean-canvas">
+                    <div class="card" style="">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+                            <h5 class="card-title"><i class="bi bi-exclamation-octagon"></i>
+ Problem</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Grocery shopping takes up a lot of time </li>
+                                    <li>It is more efficient for one person to shop for multiple people</li>
+                                    <li>Long drives to grocery stores in some rural areas compound this problem</li>
+                                    <li>Anyone who doesn't own a car in these settings faces additional challenges</li>
+                                    <li>Existing food delivery services often do not operate in rural areas because there is little profit in doing so</li>
+                                    <li>More people are moving to the periphery of cities to reduce their cost of living</li>
+                                </ul>
+                            </p>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-sm-3 lean-canvas">
+                    <div class="card" style="">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-signpost-2"></i> Existing Alternatives</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Instacart</li>
+                                    <li>Walmart Plus</li>
+                                    <li>Uber (items from 7Eleven)</li>
+                                    <li>Amazon Fresh</li>
+                                    <li>Hello Fresh (Meal kits)</li>
+                                    <li>Goodfood (Meal kits)</li>
+                                </ul>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 lean-canvas">
+                    <div class="card" style="">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-clipboard-data"></i> Key Metrics</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Number of people using the Grocery Pool in the rental unit</li>
+                                    <li>Order frequency per building</li>
+                                    <li>Order prices</li>
+                                    <li>Volume/weight of orders</li>
+                                    <li>Customer/tenant satisfaction ratings</li>
+                                </ul>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3 lean-canva`s">
+                    <div class="card" style="">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-gear"></i> High Level Concept</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Developed with Bootstrap, PHP and MySQL</li>
+
+                                </ul>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-5 lean-canvas">
+                    <div class="card" style="">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-file-post"></i> Channels</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Rental community networking events</li>
+                                    <li>Social media promotion to potential end-users</li>
+                                    <li>Mention in rental brochures and apartment listings</li>
+                                    <li>Business to business promotion with direct mail</li>
+
+                                </ul>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-4 lean-canvas">
+                    <div class="card" style="">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-door-open"></i> Unique Value Proposition</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Saves time and money</li>
+                                    <li>Good for helping foster a strong sense of community</li>
+                                </ul>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 lean-canvas">
+                    <div class="card" style="">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-trophy"></i> Unfair Advantage</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>First service of its kind in Halifax area</li>
+                                    <li>Talented team of enthusiastic developers</li>
+
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 lean-canvas">
+                    <div class="card" style="">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-people"></i> Customer Segments</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>University students</li>
+                                    <li>People with disabilities</li>
+                                    <li>Seniors</li>
+                                    <li>Rural communities</li>
+                                    <li>People too busy to shop</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 lean-canvas">
+                    <div class="card" style="">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-person-check"></i> Early Adopters</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>People who already already organizing grocery pickups together may be inclined to use a service like this</li>
+                                    <li>Delivery people who may already be engaged in other gig-economy jobs</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 lean-canvas">
+                    <div class="card" style="">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-file-earmark-spreadsheet"></i> Cost Structure</h5>
+                            <p class="card-text">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Research</td>
+                                        <td>$2,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Development</td>
+                                        <td>$10,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Web Hosting</td>
+                                        <td>$6,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Security Penetration Testing</td>
+                                        <td>$1,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Maintenance</td>
+                                        <td>$5,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Miscelaneous</td>
+                                        <td>$1,000</td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
 
 

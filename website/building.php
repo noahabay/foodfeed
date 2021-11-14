@@ -53,9 +53,7 @@
                         <a href="#" class="card-link">View Month</a>
                     </div>
                 </div>
-            </div>
-
-            
+            </div>  
         </div>
 
         <br>
@@ -66,9 +64,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><i class="bi bi-compass"></i> Locker Location</h5>
-                        <br>
                         <h6 class="card-subtitle mb-2 text-muted">Where to find your items</h6>
-                        <p class="card-text">The locker for your building is located on the first floor, to the right once you enter the security doors.</p>
+                        <p class="card-text">The locker for your building is located on the first floor, just to the right once you enter the security doors.</p>
                         <img class="card-img-bottom" src="images/locker.jpg" alt="Card image cap">
                     </div>
                 </div>
@@ -81,16 +78,47 @@
                         <h6 class="card-subtitle mb-2 text-muted">Meet your neighbours</h6>
                         
                         <p>
-                            <a href="account.php"><button type="button" class="btn btn-success"><i class="bi-person-circle"></i> John Doe</button></a>
-                            <a href="account.php"><button type="button" class="btn btn-success"><i class="bi-person-circle"></i> John Doe</button>
+                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> John Doe</button></a>
+                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> Jane Doe</button></a>
+                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> Jeff Doe</button></a>
+                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> Jeff Doe</button></a>
+                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> Joe Doe</button></a>
+                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> Jane Doe</button></a>
+                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> Jeff Doe</button></a>
+                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> Jeff Doe</button></a>
+                            <br>Have all delivered orders for Grocery Pool at Apollo House in the last month.
+                            <br>
+                            <br>
+                            <a href="account.php"><button type="button" class="btn btn-success space-button"><i class="bi-person-circle"></i> Jorge Doe</button></a>
+                            <br>Is the Grocery Pool support person for Apollo House. 
                         </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="bi bi-chat-left"></i> Comments / Concerns</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Please let us know if there are any issues with your Grocery Pooling experience in your building</h6>
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Feedback</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="button" class="btn btn-warning space-button">Send <i class="bi-box-arrow-in-right"></i></button>
+                            </form>
                     </div>
                 </div>
             </div>
 
         </div>
 
-
+    <br>
 
     </div>
 </main>

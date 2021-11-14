@@ -7,9 +7,7 @@
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       
-      <li class="nav-item">
-        <a class="nav-item nav-link" href="#"></a>
-      </li>
+
       <?php
         if(isset($_SESSION["userName"])){
       ?>
@@ -27,6 +25,10 @@
 
 
     <?php } ?>
+
+      <li class="nav-item">
+        <a class="nav-item nav-link" href="team.php"> About the Grocery Pool Team</a>
+      </li>
     </ul>
     <?php
     if(isset($_SESSION["userName"])){
