@@ -3,20 +3,31 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
+      
       <li class="nav-item">
-        <a class="nav-link" href="about.php">About</a>
+        <a class="nav-item nav-link" href="#"></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-item nav-link" href="team.php">Team</a>
-      </li>
+      <?php
+        if(isset($_SESSION["userName"])){
+      ?>
+        <li class="nav-item">
+          <a class="nav-item nav-link" href="account.php"><button type="button" class="btn btn-secondary"><i class="bi-person-circle"></i> My Account</button></a>
+        </li>
 
-      <li class="nav-item">
-        <a class="nav-item nav-link" href="users.php">Users</a>
-      </li>
+        <li class="nav-item">
+          <a class="nav-item nav-link" href="building.php"><button type="button" class="btn btn-secondary"><i class="bi-building"></i> My Building</button></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-item nav-link" href="orders.php"><button type="button" class="btn btn-secondary"><i class="bi bi-card-checklist"></i> My Orders</button></a>
+        </li>
+
+
+    <?php } ?>
     </ul>
-
     <?php
     if(isset($_SESSION["userName"])){
       ?>

@@ -199,6 +199,87 @@ h1.brand{
 }
 
 
+.calendar * {
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Month header */
+.month {
+  background-color: rgb(170, 170, 170);
+  text-align: center;
+
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month h3{
+    margin-bottom: 0;
+}
+
+.month ul li {
+    
+  color: white;
+  letter-spacing: 3px;
+}
+
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  margin: 0;
+  
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13%;
+  height: 5em;
+  text-align: center;
+  font-size:12px;
+  color: #777;
+
+
+}
+
+.days button{
+    width: 100%;
+}
+
+.days li:nth-child(2) {
+    background-color: rgba(0, 128, 0, 0.5);
+}
+
+.days li:nth-child(5) {
+    background-color: rgba(0, 128, 0, 0.5);
+}
+
+
+/* Highlight the "current" day */
+.days li .active {
+
+  color: white !important
+}
+
+
 @media only screen
 and (min-width : 320px)
 and (max-width : 480px) {

@@ -45,7 +45,8 @@
 
 
             <br>
-            <p><b>Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</b> helps save your tenants time and money while helping to foster a spirit of commmunity and togetherness. <b>Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</b> works much like carpooling does - a group of people come together to coordinate grocery pickups. Grocery Pool provides a both an application platform and a standardized container design model that is easy to implement in all manner of rental buildings. </p>
+            <h1>Elevator Pitch</h1>
+            <p><b>Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</b> helps save your tenants time and money while helping to foster a spirit of commmunity and togetherness. <b>Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</b> works much like carpooling does - a group of people come together to coordinate grocery pickups. Grocery Pool provides both an web/mobile platform and a modular bin and locker design that can implemented in all manner of rental buildings. </p>
 
             <p>The <b>Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</b> model emphasizes location and social enterprise. In many places that can be considered food insecure, it is a great burden for some to get groceries. The elderly, students and anyone who doesn't own a car can face enormous physical and time challenges when going to buy food, and as a consequence must buy in bulk (which increases food waste), and purchase foods with longer shelf lives, which tend to be unhealthier.</p>
 
@@ -58,7 +59,7 @@
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
-                            <h1> Conceptual diagram </h1>
+                            <h1> Conceptual Diagram </h1>
                             <div class = "infographics">
                                 <i class="bi bi-person-circle accent-color"></i>
                                 <i class="bi bi-person-fill"></i>
@@ -98,8 +99,18 @@
                             </div>
                             <br>
                             <p class="card-text"><b>Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</b> helps neighbours connect with one another to pool their time when gathering groceries. This platform provides the opportunity for an enterprising tenant in a building to take the lead on the grocery delivery service, or for tenants do distribute the responsibility amongst themselves.</p>
-                            <p> 
+                            <p> <b>Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</b> uses a standardized system of bins to help the delivery person be able to quantify how many bins they can carry in their vehicle. This also ensures that the items will fit in the locker. The volume of the items will be calculated during the ordering process to ensure all items will fit in the locker.
 
+                                
+
+                            <table class="grid">
+                                <tbody>
+                                    <tr>
+                                        <td><i class="bi bi-basket3"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <br>
                             <a href="#" class="btn btn-success">Find out more</a>
                         </div>
                     </div>
@@ -108,7 +119,7 @@
                     <div class="card">
                         <div class="card-body">
                         <h1>Bin and Locker System </h1>
-                            <p class="card-text"><b>Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</b> uses a system of standardized bins and lockers that can be retrofitted to the building. The locker system can be modular, allowing it to be easily incorporated in to small spaces (like under a stairwell).</p>
+                            <p class="card-text"><b>Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</b> uses a system of standardized bins and lockers that can be retrofitted to the building. The locker system can be modular, allowing it to be easily incorporated in to small spaces (like under a stairwell). The branding and aesthetics of the lockers will be important for communicating the concept of <b>Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</b> to the public.</p>
                             <table class="grid">
                                 <tbody>
                                     <tr>
@@ -129,9 +140,27 @@
                                 </tbody>
                             </table>
                             <br>
-                            <p class="card-text"><b>Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</b>'s lockers are secured using NFC and can be opened with either a keyfob or smartphone application. This both secures the order from theft, and protects the rental agency from issues arising from lost or stolen keys. 
-                            <b>You could think of this kind of like a mailbox for groceries.</b> Since the tenants of the building are the ones retrieving the orders, it can be placed either inside or outside of the security doors.</p>
-                            <p>The bin and lockers are reusable and repurposable, so they are a low risk and low cost investment for the property owner if purchased wholesale.</p>
+                            <p class="card-text"><b>Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</b>'s lockers are secured using NFC and can be opened with either a keyfob or smartphone application. This both secures the order from theft, and protects the rental agency from issues arising from lost or stolen keys. <b>You could think of this kind of like a mailbox for groceries.</b> Since the tenants of the building are retrieving the orders, the locker be placed inside the security doors.</p>
+
+                            <table class="grid">
+                                <tbody>
+                                    <tr>
+                                        <td><i class="bi bi-basket3"></td>
+                                        <td><i class="bi bi-basket3"></td>
+                                        <td><i class="bi bi-basket3"></td>
+                                        <td><i class="bi bi-basket3"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-basket3"></td>
+                                        <td><i class="bi bi-basket3"></td>
+                                        <td><i class="bi bi-basket3"></td>
+                                        <td><i class="bi bi-basket3"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <br>
+                            <p>The bin and lockers are reusable and repurposable, so they are a low risk and low cost investment for the property owner if purchased wholesale. Using a locker minimizes the physical requirements on the person delivering the items. In some places, secured storage for a dolly may be incorporated in to the locker system. Smaller buildings may be able to be serviced with a single locker.</p>
 
                             
                             <a href="#" class="btn btn-success">Find out more</a>
@@ -143,6 +172,8 @@
             <br>
 
             <div class = "row">
+                <h1>Lean Canvas</h1>
+
                 <div class="col-sm-6">
                     <div class="card" style="width: 18rem;">
                         <div class="card-body">
