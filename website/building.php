@@ -19,7 +19,66 @@
 
 <main>
     <div class = "container">
+        
         <div class = "row">
+            <h2> Details</h2>
+            <div class = "col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="bi bi-compass"></i> Locker Location</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Where to find your items</h6>
+                        <img class="card-img-bottom" src="images/locker.jpg" alt="Card image cap">
+                        <p class="card-text">The locker for your building is located on the first floor, just to the right once you enter the security doors and walk down the hall.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class = "col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="bi bi-camera"></i> Locker Location</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Where to find your items</h6>
+                        <p class="card-text">The lockers look like this:</p>
+                        <img class="card-img-bottom" src="images/locker2.jpg" alt="Card image cap">
+                    </div>
+                </div>
+            </div>
+
+            <div class = "col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="bi bi-person-circle"></i> Participating Tenants</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Meet your neighbours</h6>
+                        
+                        <p>
+                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> John Doe</button></a>
+                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> Jane Doe</button></a>
+                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> Jeff Doe</button></a>
+                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> Jeff Doe</button></a>
+                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> Joe Doe</button></a>
+                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> Jane Doe</button></a>
+                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> Jeff Doe</button></a>
+                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> Jeff Doe</button></a>
+                            <br>Have all delivered orders for Grocery Pool at Apollo House in the last month.
+                            <br>
+                            <br>
+                            <a href="account.php"><button type="button" class="btn btn-success space-button"><i class="bi-person-circle"></i> Jorge Doe</button></a>
+                            <br>Is the Grocery Pool support person for Apollo House. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    <br>
+
+    <div class = "row">
+    <h2> Scheduling</h2>
             <div class = "col-lg-12">
                 <div class="card">
                     <div class="card-body">
@@ -56,51 +115,14 @@
             </div>  
         </div>
 
+
         <br>
-
         <div class = "row">
-            
-            <div class = "col-lg-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title"><i class="bi bi-compass"></i> Locker Location</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Where to find your items</h6>
-                        <p class="card-text">The locker for your building is located on the first floor, just to the right once you enter the security doors.</p>
-                        <img class="card-img-bottom" src="images/locker.jpg" alt="Card image cap">
-                    </div>
-                </div>
-            </div>
-
-            <div class = "col-lg-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title"><i class="bi bi-person-circle"></i> Participating Tenants</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Meet your neighbours</h6>
-                        
-                        <p>
-                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> John Doe</button></a>
-                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> Jane Doe</button></a>
-                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> Jeff Doe</button></a>
-                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> Jeff Doe</button></a>
-                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> Joe Doe</button></a>
-                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> Jane Doe</button></a>
-                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> Jeff Doe</button></a>
-                            <a href="account.php"><button type="button" class="btn btn-secondary space-button"><i class="bi-person"></i> Jeff Doe</button></a>
-                            <br>Have all delivered orders for Grocery Pool at Apollo House in the last month.
-                            <br>
-                            <br>
-                            <a href="account.php"><button type="button" class="btn btn-success space-button"><i class="bi-person-circle"></i> Jorge Doe</button></a>
-                            <br>Is the Grocery Pool support person for Apollo House. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class = "col-lg-4">
+        <div class = "col-lg-12">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><i class="bi bi-chat-left"></i> Comments / Concerns</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Please let us know if there are any issues with your Grocery Pooling experience in your building</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">Please let us know if there are any issues with the Grocery Pooling experience in your building</h6>
                         <form>
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Email address</label>
@@ -115,10 +137,9 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
-    <br>
+        <br>
 
     </div>
 </main>
