@@ -24,7 +24,7 @@
         foreach($result as $current){
             //Set the userID, userName and privateID to their own variables:
             $userID = $current["userID"];
-            $userName = $current["userName"];
+            $username = $current["userName"];
             $privateID = $current["privateID"];
             //Get the user's salt and peppers for password spicing:
             $querySQL = "   SELECT privateID, userSalt, userPepper from userSaltAndPepper 
@@ -55,7 +55,7 @@
         //Check if the hashed input matches the user's hashed password:
         if($saltAndPepperPasswordInputChecksum == $passwordHash){
             //If the password is correct, we can set the SESSION userName and userID values:
-            $_SESSION["userName"] = $userName;
+            $_SESSION["userName"] = $username;
             $_SESSION["userID"] = $userID;
             //Redirect the user 
             header("Location: index.php");
