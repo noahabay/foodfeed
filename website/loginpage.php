@@ -1,8 +1,4 @@
-<?php 
-       ini_set("display_errors",1);
-       error_reporting(E_ALL);
-        //code goes here
-?>
+
 
 <?php include "includes/header.php" ?>
 
@@ -75,12 +71,12 @@ else{
     <main>
         <div class = "container">
             <div class="card loginfailed">
-                    <div class="card-body">
-                        <h5 class="card-title"> Username or Password Incorrect </h5>
-                        <i class="bi-exclamation-diamond-fill" style="font-size: 5em "></i>
-                        <hr>
-                        <button  class="btn btn-info btn-lg"  data-toggle="modal" data-target="#loginModal"> <a href="#" style = "text-decoration: none; color: black;">Try Again &nbsp;<i class="bi-arrow-clockwise" style="font-size: 1em"></i></a>  </button>  
-                    </div>
+                <div class="card-body">
+                    <h5 class="card-title"> Username or Password Incorrect </h5>
+                    <i class="bi-exclamation-diamond-fill" style="font-size: 5em "></i>
+                    <hr>
+                    <button  class="btn btn-info btn-lg"  data-toggle="modal" data-target="#loginModal"> <a href="#" style = "text-decoration: none; color: black;">Try Again &nbsp;<i class="bi-arrow-clockwise" style="font-size: 1em"></i></a>  </button>  
+                </div>
             </div>
         </div>
     </main>
