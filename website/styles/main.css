@@ -1,6 +1,7 @@
+
 /* CSS For page branding: */
 .egg-icon{
-    color: rgb(255, 185, 0) !important;
+    color: rgb(0, 146, 0) !important;
 }
 
 .brand{
@@ -12,12 +13,12 @@ h1.brand{
 }
 
 .accent-color{
-    color: rgb(255, 185, 0) !important;
+    color: rgb(0, 146, 0) !important;
 }
 
 .btn-success{
-    background-color: rgb(255, 185, 0) !important;
-    color: black;
+    background-color: rgb(0, 146, 0) !important;
+    color: white;
 }
 
 /* CSS related to the landing page carousel: */
@@ -82,8 +83,9 @@ h1.brand{
 }
 
 .landing-content{
-    padding: 3em;
-}
+    padding-left: 3em;
+    padding-right: 3em;
+}   
 
 /* Search bar styling: */
 
@@ -134,6 +136,10 @@ h1.brand{
 }
 
 
+.space-button{
+    margin-bottom: 1em;
+}
+
 
 /* Login area and button styles:  */
 
@@ -153,9 +159,51 @@ h1.brand{
 }
 
 .infographics i{
-    font-size: 8em;
+    font-size: 4em;
     text-align: center;
 }
+
+.infographics .small{
+    font-size: 2em;
+}
+
+
+.logo-image{
+    height:  250px;
+    margin-top: 1em;
+}
+
+.logo-align{
+    display: inline-block;
+    float: left;
+}
+
+.logo-align-text{
+    margin-left: 2em;
+}
+
+
+
+.lean-canvas{
+    margin-bottom: 2em;
+}
+
+.btn-outline-success {
+    color: white;
+}
+
+.footer{
+    display: inline-block;
+    width: 100%;
+    background-color: red;
+}
+
+.card{
+    transition: box-shadow .3s;
+}
+.card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
 
 
 @media only screen
