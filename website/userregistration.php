@@ -79,6 +79,9 @@ if($registrationValid == TRUE){
                             ('{$privateID}', MD5(CONCAT('{$userSalt}', MD5('{$password}'), '{$userPepper}')))
                             ";
 
+            $_SESSION["userName"] = $username;
+            $_SESSION["userID"] = $userID;
+
             $dbconn->query($querySQL);
             $dbconn->close();
         }

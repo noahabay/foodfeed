@@ -73,6 +73,7 @@
                                 <i class="bi bi-arrow-down-up"></i>
                                 <i class="bi bi-cloud"></i>
                             </div>
+<<<<<<< HEAD
 
                             <div class = "infographics">
                                 <i class="bi bi-person-circle accent-color"></i>
@@ -110,6 +111,10 @@
                             <br>
 
                             <p>The web application could also be adapted to help provide communally driven access to other business and services, based on the feedback of our early adopters.</p>
+=======
+                            <p class="card-text">With so many delivery services to choose from, how do you know you are getting the best price when you order delivery?
+ <p><b>food<i class="bi bi-egg-fried egg-icon"></i>feed</b> checks the prices of menu items available on takeout services like UberEats, DoorDash, Postmates, FoodHWY and finds the best prices based on the menu item pricing, delivery charges and incidental fees.</p>
+>>>>>>> 7ba5e66cf9d1b5386f80b2a4361031b1b8a6d71b
 
                             <a href="#" class="btn btn-success">Find out more</a>
                         </div>
@@ -118,6 +123,7 @@
                 <div class="col-lg-6">
                     <div class="card locker-system">
                         <div class="card-body">
+<<<<<<< HEAD
                         <h1>Bin and Locker System </h1>
                             <p class="card-text"><b>Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</b> uses a system of standardized bins and lockers that can be retrofitted to the building. The locker system can be modular, allowing it to be easily incorporated in to small spaces (like under a stairwell). The branding and aesthetics of the lockers will be important for communicating the concept of <b>Grocery<i class="bi bi-basket3-fill egg-icon"></i>Pool</b> to the public.</p>
                             <table class="grid">
@@ -164,6 +170,14 @@
 
                             
                             <a href="#" class="btn btn-success">Find out more</a>
+=======
+                            <div class = "infographics">
+                                <i class="bi bi-basket3"></i>
+                            </div><p>Right now, there's no other service of this type operating in the Canadian Market!</p>
+                            <p class="card-text"><b>food<i class="bi bi-egg-fried egg-icon"></i>feed</b> loves all the “bargain hunters”, “coupon clippers” and “deal seekers” who adopt our platform! </p>
+
+                            <a href="#" class="btn btn-success">Help Spread the Word</a>
+>>>>>>> 7ba5e66cf9d1b5386f80b2a4361031b1b8a6d71b
                         </div>
                     </div>
                 </div>
