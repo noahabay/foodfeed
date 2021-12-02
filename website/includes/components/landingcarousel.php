@@ -26,7 +26,7 @@
             <div class = "row">
                 <div class = "col-lg-12">
                     <br>
-                    <h1 class = "brand">food<i class="bi bi-egg-fried egg-icon"></i>feed</h1>
+                    <h1 class = "brand">Food<i class="bi bi-egg-fried egg-icon"></i>Feed</h1>
                     <h1>is</h1>
                     <h1>here</h1>
                     <h1> for <u class = "accent-color">you</u>.</h1>
@@ -40,7 +40,7 @@
 
 
             <br>
-            <p><b>food<i class="bi bi-egg-fried egg-icon"></i>feed</b> makes it easy for you to find the best prices for take-out and delivery in your local area.</p>
+            <p><b>Food<i class="bi bi-egg-fried egg-icon"></i>Feed</b> makes it easy for you to find the best prices for take-out and delivery in your local area.</p>
             <p>
             <hr>
             <div class="row">
@@ -50,7 +50,7 @@
                             <div class = "infographics">
                                 <i class="bi bi-cup-straw"></i>
                             </div>
-                            <p class="card-text"><b>food<i class="bi bi-egg-fried egg-icon"></i>feed</b> checks the prices of menu items available on takeout services like UberEats, DoorDash, Postmates, FoodHWY and finds the best prices based on the menu item pricing, delivery charges and incidental fees.</p>
+                            <p class="card-text"><b>Food<i class="bi bi-egg-fried egg-icon"></i>Feed</b> checks the prices of menu items available on takeout services like UberEats, DoorDash, Postmates, FoodHWY and finds the best prices based on the menu item pricing, delivery charges and incidental fees.</p>
 
                             <a href="#" class="btn btn-success">Find out more</a>
                         </div>
@@ -62,15 +62,20 @@
                             <div class = "infographics">
                                 <i class="bi bi-basket3"></i>
                             </div>
-                            <p class="card-text"><b>food<i class="bi bi-egg-fried egg-icon"></i>feed</b> checks the prices of menu items available on takeout services like UberEats, DoorDash, Postmates, FoodHWY and finds the best prices based on the menu item pricing, delivery charges and incidental fees.</p>
+                            <p class="card-text">We are now serving with redirecting your entire cart to the respective food service provider. With <b>Food<i class="bi bi-egg-fried egg-icon"></i>Feed</b>, you can now easily compare the best prices and do checkout to make an order.</p>
 
                             <a href="#" class="btn btn-success">Find out more</a>
                         </div>
                     </div>
                 </div>
             </div>
- </p>
-
+ 		</p>
+ 		<p>
+ 			Covid-19 has made us realise the importance of getting your food delivered with safety and standards at your doorsteps. The complete transition of the food delivery portal has been observed, making it more confusing where to order. That’s where FoodFeed comes into play. We offer a wide variety of comparisons of price, delivery time, and ratings between different food delivery applications for your favourite food. 
+ 		</p>
+ 		<p>
+			Managing work-life and food together is tedious, and we are here to give you the best option available for your food from the favourite restaurant to get delivered. Saving money with flexibility is the evolving factor of FoodFeed. This is not merely a food comparison application, but this will go a long way toward making this significant and necessary change in the lives of all of us. We, here at FoodFeed trying to do our part by supporting you to save your money. 
+ 		</p>
 
         </div>
     </div>

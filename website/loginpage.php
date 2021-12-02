@@ -15,6 +15,7 @@ $querySQL = "   SELECT userName, userID, privateID from users
 $result = $dbconn->query($querySQL);
 $rowcount = mysqli_num_rows($result); 
 
+$incorrect = FALSE;
 //If the username isn't found no rows will be returned
 if($rowcount < 1){
     //If no username found then Set the username or password incorrect value to TRUE
@@ -57,9 +58,12 @@ else{
     if($saltAndPepperPasswordInputChecksum == $passwordHash){
         //If the password is correct, we can set the SESSION userName and userID values:
         $_SESSION["userName"] = $username;
-        $_SESSION["userID"] = $userID;
-        //Redirect the user 
-        header("Location: index.php");
+        $_SESSION["userID"] = $userID;?>
+        <script type="text/javascript">
+			{window.location.replace("index.php");}
+		</script>
+		<?php
+        //header("Location: index.php");
 
     }else{
         //If password incorrect then Set the username or password incorrect value to TRUE

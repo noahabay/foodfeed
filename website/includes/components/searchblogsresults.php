@@ -5,7 +5,7 @@
     <div class="card-body">
     <h5 class="card-title">Pepperonni Pizza</h5>
         <p class="card-text">$14.99</p>
-        <form action="mycart.php">
+        <form action="">
             <label for="cars">Quantity</label>
             <select id="cars" name="cars">
             <option value="1">1</option>
@@ -23,7 +23,7 @@
     <div class="card-body">
         <h5 class="card-title">Baked Cheese Pizza</h5>
             <p class="card-text">$16.99</p>
-            <form action="mycart.php">
+            <form action="">
               <label for="cars">Quantity</label>
               <select id="cars" name="cars">
                 <option value="1">1</option>
@@ -62,7 +62,7 @@
     <div class="card-body">
     <h5 class="card-title">2 Toppings Pizza</h5>
         <p class="card-text">$14.99</p>
-        <form action="mycart.php">
+        <form action="">
             <label for="cars">Quantity</label>
             <select id="cars" name="cars">
             <option value="1">1</option>
@@ -80,7 +80,7 @@
     <div class="card-body">
         <h5 class="card-title">Margerita Pizza</h5>
             <p class="card-text">$15.99</p>
-            <form action="mycart.php">
+            <form action="">
               <label for="cars">Quantity</label>
               <select id="cars" name="cars">
                 <option value="1">1</option>

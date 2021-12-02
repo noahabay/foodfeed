@@ -96,12 +96,16 @@ h1.brand{
 
 /* Mapping Styles: */
 
-#map { height: 50vh; 
+#blogs { height: 50vh; 
 }
 
 .search-container {
     width: 100%;
-  }
+}
+
+.search-container {
+    width: 100%;
+}
   
 /* The point of this tutorial is here */
 .form {
@@ -116,6 +120,27 @@ h1.brand{
     border: none;
     border-radius: 100px;
     outline: none;
+}
+
+.search-field {
+    width: 100%;
+    padding: 10px 35px 10px 15px;
+    border: double;
+    border-radius: 100px;
+    outline: auto;
+}
+
+.search-button-blog {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+}
+
+.search-button-blog img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
 }
 
 .search-button {
@@ -294,3 +319,61 @@ and (max-width : 1024px) {
   .clear-button:hover {
     color: rgba(0, 0, 0, 0.6);
   }
+
+#searchbar{
+ margin-left: 15%;
+ padding:15px;
+ border-radius: 10px;
+}
+
+#searchbar-blog{
+ width: 100%;
+ padding:15px;
+ margin-left: 15px;
+ border-radius: 50px;
+}
+
+input[type=text] {
+  width: 30%;
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus,
+    change its width to 100% */
+input[type=text]:focus {
+ width: 70%;
+}
+
+#list{
+font-size:  1.5em;
+margin-left: 90px;
+}
+ 
+.blogs{
+   display: list-item;  
+   margin-top: 20px;
+   margin-left: 20px;
+} 
+
+#blogtitle {
+    width: 100% !important;
+  -webkit-transition: auto !important;
+  transition: auto !important;
+}
+
+#homepagesearchbar {
+    width: 100% !important;
+  -webkit-transition: auto !important;
+  transition: auto !important;
+}
+
+.box {
+  width: 100%;
+  height: 60px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
