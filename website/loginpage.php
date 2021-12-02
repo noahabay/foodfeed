@@ -1,9 +1,11 @@
 
 
-<?php include "includes/header.php" ?>
-
-
 <?php
+
+
+include "includes/header.php";
+
+
 //Sanitize the username and password input:
 $usernameInput = sanitizeData($_POST["username"]);
 $passwordInput = sanitizeData($_POST["password"]);

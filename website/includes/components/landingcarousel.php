@@ -50,7 +50,8 @@
                             <div class = "infographics">
                                 <i class="bi bi-cup-straw"></i>
                             </div>
-                            <p class="card-text"><b>food<i class="bi bi-egg-fried egg-icon"></i>feed</b> checks the prices of menu items available on takeout services like UberEats, DoorDash, Postmates, FoodHWY and finds the best prices based on the menu item pricing, delivery charges and incidental fees.</p>
+                            <p class="card-text">With so many delivery services to choose from, how do you know you are getting the best price when you order delivery?
+ <p><b>food<i class="bi bi-egg-fried egg-icon"></i>feed</b> checks the prices of menu items available on takeout services like UberEats, DoorDash, Postmates, FoodHWY and finds the best prices based on the menu item pricing, delivery charges and incidental fees.</p>
 
                             <a href="#" class="btn btn-success">Find out more</a>
                         </div>
@@ -61,10 +62,10 @@
                         <div class="card-body">
                             <div class = "infographics">
                                 <i class="bi bi-basket3"></i>
-                            </div>
-                            <p class="card-text"><b>food<i class="bi bi-egg-fried egg-icon"></i>feed</b> checks the prices of menu items available on takeout services like UberEats, DoorDash, Postmates, FoodHWY and finds the best prices based on the menu item pricing, delivery charges and incidental fees.</p>
+                            </div><p>Right now, there's no other service of this type operating in the Canadian Market!</p>
+                            <p class="card-text"><b>food<i class="bi bi-egg-fried egg-icon"></i>feed</b> loves all the “bargain hunters”, “coupon clippers” and “deal seekers” who adopt our platform! </p>
 
-                            <a href="#" class="btn btn-success">Find out more</a>
+                            <a href="#" class="btn btn-success">Help Spread the Word</a>
                         </div>
                     </div>
                 </div>

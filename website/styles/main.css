@@ -1,7 +1,7 @@
 
 /* CSS For page branding: */
 .egg-icon{
-    color: rgb(0, 146, 0) !important;
+    color: rgb(249, 168, 38)!important;
 }
 
 .brand{
@@ -13,11 +13,11 @@ h1.brand{
 }
 
 .accent-color{
-    color: rgb(0, 146, 0) !important;
+    color: rgb(249, 168, 38)!important;
 }
 
 .btn-success{
-    background-color: rgb(0, 146, 0) !important;
+    background-color: rgb(249, 168, 38)!important;
     color: white;
 }
 
@@ -175,7 +175,6 @@ h1.brand{
 
 .logo-align{
     display: inline-block;
-    float: left;
 }
 
 .logo-align-text{
