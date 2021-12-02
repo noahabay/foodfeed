@@ -25,7 +25,7 @@
               <h3 class="card-title"><i class="bi bi-geo-alt-fill"></i> Saved</h3>
                 <div class="card">
                   <div class="card-body">
-                    <form>
+                    <form method="POST" action="saveprimary.php">
                         <div class="form-group">
                           <h4 class="card-title"><i class="bi bi-house"></i> Primary</h4>
                           <label for="inputAddress">Street Address</label>
@@ -38,18 +38,32 @@
                         <div class="form-row">
                           <div class="form-group col-md-6">
                             <label for="inputCity">City</label>
-                            <input type="text" class="form-control" id="inputCity">
+                            <input type="text" class="form-control" id="inputCity" placeholder="Halifax">
                           </div>
-                          <div class="form-group col-md-4">
+                          <div class="form-group col-md-6">
                             <label for="inputState">Province / State</label>
-                            <select id="inputState" class="form-control">
+                            <select name="province" id="province" class="form-control">
                               <option selected>Choose...</option>
-                              <option>...</option>
+                              <option value="AB">Alberta</option>
+                              <option value="BC">British Columbia</option>
+                              <option value="MB">Manitoba</option>
+                              <option value="NB">New Brunswick</option>
+                              <option value="NL">Newfoundland and Labrador</option>
+                              <option value="NS">Nova Scotia</option>
+                              <option value="NT">Northwest Territories</option>
+                              <option value="NU">Nunavut</option>
+                              <option value="ON">Ontario</option>
+                              <option value="PE">Prince Edward Island</option>
+                              <option value="QC">Quebec</option>
+                              <option value="SK">Saskatchewan</option>
+                              <option value="YT">Yukon</option>
                             </select>
                           </div>
-                          <div class="form-group col-md-2">
+                        </div>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
                             <label for="inputZip">Postal Code</label>
-                            <input type="text" class="form-control" id="inputZip">
+                            <input type="text" class="form-control" id="inputZip" placeholder="B3J2G9">
                           </div>
                         </div>
                         <button type="submit" class="btn btn-primary">Save</button>
@@ -59,7 +73,7 @@
 
                 <div class="card">
                   <div class="card-body">
-                    <form>
+                    <form method="POST" action="savesecondary.php">
                         <div class="form-group">
                           <h4 class="card-title"><i class="bi bi-building"></i>  Secondary</h4>
                           <label for="inputAddress">Street Address</label>
@@ -72,18 +86,32 @@
                         <div class="form-row">
                           <div class="form-group col-md-6">
                             <label for="inputCity">City</label>
-                            <input type="text" class="form-control" id="inputCity">
+                            <input type="text" class="form-control" id="inputCity" placeholder="Halifax">
                           </div>
-                          <div class="form-group col-md-4">
+                          <div class="form-group col-md-6">
                             <label for="inputState">Province / State</label>
-                            <select id="inputState" class="form-control">
+                            <select name="province" id="province" class="form-control">
                               <option selected>Choose...</option>
-                              <option>...</option>
+                              <option value="AB">Alberta</option>
+                              <option value="BC">British Columbia</option>
+                              <option value="MB">Manitoba</option>
+                              <option value="NB">New Brunswick</option>
+                              <option value="NL">Newfoundland and Labrador</option>
+                              <option value="NS">Nova Scotia</option>
+                              <option value="NT">Northwest Territories</option>
+                              <option value="NU">Nunavut</option>
+                              <option value="ON">Ontario</option>
+                              <option value="PE">Prince Edward Island</option>
+                              <option value="QC">Quebec</option>
+                              <option value="SK">Saskatchewan</option>
+                              <option value="YT">Yukon</option>
                             </select>
                           </div>
-                          <div class="form-group col-md-2">
+                        </div>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
                             <label for="inputZip">Postal Code</label>
-                            <input type="text" class="form-control" id="inputZip">
+                            <input type="text" class="form-control" id="inputZip" placeholder="B3J2G9">
                           </div>
                         </div>
                         <button type="submit" class="btn btn-primary">Save</button>
@@ -97,12 +125,6 @@
       </div>
     </div>
 </main>
-
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Billing Information</h1>
-  </div>
-</div>
 
 <script>
 var map = L.map('map').setView([44.6369077, -63.59041448], 18);

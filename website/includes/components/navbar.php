@@ -33,7 +33,7 @@ include "includes/components/loginmodal.php";
         <a href="logout.php" style = "text-decoration: none">Logout <i class="bi-door-open" style="font-size: 1em"></i></i></a>
       </button>  
       <button  class="btn btn-success btn-lg">
-        <a href="users.php?userID=<?php echo($_SESSION["userID"])?>" style = "text-decoration: none">My Profile <i class="bi-person-circle" style="font-size: 1em"></i></i></a>
+        <a href="myprofile.php" style = "text-decoration: none">My Profile <i class="bi-person-circle" style="font-size: 1em"></i></i></a>
       </button>
       <button  class="btn btn-primary btn-lg">
         <a href="mycart.php?userID=<?php echo($_SESSION["userID"])?>" style = "text-decoration: none">My Cart <i class="bi-cart-check-fill" style="font-size: 1em"></i></i></a>
