@@ -1,4 +1,25 @@
-<?php include "includes/header.php" ?>
+<?php
+include "db/db.php";
+include "includes/header.php";
+
+$userId = $_SESSION['userID'];
+$primary = "select * from useraddress where userID = $userId and isPrimary = 1";
+$primaryresults = $dbconn->query($primary);
+
+$secondary = "select * from useraddress where userID = $userId and isPrimary = 0";
+$secondaryresults = $dbconn->query($secondary);
+
+$dbconn->close();
+$p_result = '';
+$s_result = '';
+foreach($primaryresults as $res){
+  $p_result = $res;
+}
+
+foreach($secondaryresults as $res){
+  $s_result = $res;
+}
+?>
 
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
@@ -29,20 +50,20 @@
                         <div class="form-group">
                           <h4 class="card-title"><i class="bi bi-house"></i> Primary</h4>
                           <label for="inputAddress">Street Address</label>
-                          <input type="text" class="form-control" name="inputAddress" id="inputAddress" placeholder="1234 Main St" required>
+                          <input type="text" class="form-control" value="<?php if(isset($p_result['streetname'])){echo $p_result['streetname'];}?>" name="inputAddress" id="inputAddress" placeholder="1234 Main St" required>
                         </div>
                         <div class="form-group">
                           <label for="inputAddress2">Address 2</label>
-                          <input type="text" class="form-control" name="inputAddress2" id="inputAddress2" placeholder="Apartment, studio, or floor" required>
+                          <input type="text" class="form-control" value="<?php if(isset($p_result['address2'])){echo $p_result['address2'];}?>" name="inputAddress2" id="inputAddress2" placeholder="Apartment, studio, or floor" required>
                         </div>
                         <div class="form-row">
                           <div class="form-group col-md-6">
                             <label for="inputCity">City</label>
-                            <input type="text" class="form-control" name="inputCity" id="inputCity" placeholder="Halifax" required>
+                            <input type="text" class="form-control" value="<?php if(isset($p_result['city'])){echo $p_result['city'];}?>" name="inputCity" id="inputCity" placeholder="Halifax" required>
                           </div>
                           <div class="form-group col-md-6">
                             <label for="inputState">Province / State</label>
-                            <select name="province" id="province" class="form-control">
+                            <select name="province" value="<?php if(isset($p_result['province'])){echo $p_result['province'];}?>" id="province" class="form-control">
                               <option value="AB" selected>Alberta</option>
                               <option value="BC">British Columbia</option>
                               <option value="MB">Manitoba</option>
@@ -62,7 +83,7 @@
                         <div class="form-row">
                           <div class="form-group col-md-6">
                             <label for="inputZip">Postal Code</label>
-                            <input type="text" class="form-control" name="inputZip" id="inputZip" placeholder="B3J2G9" required>
+                            <input type="text" class="form-control" value="<?php if(isset($p_result['postalCode'])){echo $p_result['postalCode'];}?>" name="inputZip" id="inputZip" placeholder="B3J2G9" required>
                           </div>
                         </div>
                         <button type="submit" class="btn btn-primary">Save</button>
@@ -76,20 +97,20 @@
                         <div class="form-group">
                           <h4 class="card-title"><i class="bi bi-building"></i>  Secondary</h4>
                           <label for="inputAddress">Street Address</label>
-                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+                          <input type="text" class="form-control" value="<?php if(isset($s_result['streetname'])){echo $s_result['streetname'];}?>" id="inputAddress" placeholder="1234 Main St" required>
                         </div>
                         <div class="form-group">
                           <label for="inputAddress2">Address 2</label>
-                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" required>
+                          <input type="text" class="form-control" value="<?php if(isset($s_result['address2'])){echo $s_result['address2'];}?>" id="inputAddress2" placeholder="Apartment, studio, or floor" required>
                         </div>
                         <div class="form-row">
                           <div class="form-group col-md-6">
                             <label for="inputCity">City</label>
-                            <input type="text" class="form-control" id="inputCity" placeholder="Halifax" required>
+                            <input type="text" class="form-control" value="<?php if(isset($s_result['city'])){echo $s_result['city'];}?>" id="inputCity" placeholder="Halifax" required>
                           </div>
                           <div class="form-group col-md-6">
                             <label for="inputState">Province / State</label>
-                            <select name="province" id="province" class="form-control">
+                            <select name="province" value="<?php if(isset($s_result['province'])){echo $s_result['province'];}?>" id="province" class="form-control">
                               <option value="AB" selected>Alberta</option>
                               <option value="BC">British Columbia</option>
                               <option value="MB">Manitoba</option>
@@ -109,7 +130,7 @@
                         <div class="form-row">
                           <div class="form-group col-md-6">
                             <label for="inputZip">Postal Code</label>
-                            <input type="text" class="form-control" id="inputZip" placeholder="B3J2G9" required>
+                            <input type="text" class="form-control" value="<?php if(isset($s_result['postalCode'])){echo $s_result['postalCode'];}?>" id="inputZip" placeholder="B3J2G9" required>
                           </div>
                         </div>
                         <button type="submit" class="btn btn-primary">Save</button>
