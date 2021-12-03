@@ -25,26 +25,25 @@
               <h3 class="card-title"><i class="bi bi-geo-alt-fill"></i> Saved</h3>
                 <div class="card">
                   <div class="card-body">
-                    <form method="POST" action="saveprimary.php">
+                    <form method="POST" action="insertprimary.php">
                         <div class="form-group">
                           <h4 class="card-title"><i class="bi bi-house"></i> Primary</h4>
                           <label for="inputAddress">Street Address</label>
-                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                          <input type="text" class="form-control" name="inputAddress" id="inputAddress" placeholder="1234 Main St" required>
                         </div>
                         <div class="form-group">
                           <label for="inputAddress2">Address 2</label>
-                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                          <input type="text" class="form-control" name="inputAddress2" id="inputAddress2" placeholder="Apartment, studio, or floor" required>
                         </div>
                         <div class="form-row">
                           <div class="form-group col-md-6">
                             <label for="inputCity">City</label>
-                            <input type="text" class="form-control" id="inputCity" placeholder="Halifax">
+                            <input type="text" class="form-control" name="inputCity" id="inputCity" placeholder="Halifax" required>
                           </div>
                           <div class="form-group col-md-6">
                             <label for="inputState">Province / State</label>
                             <select name="province" id="province" class="form-control">
-                              <option selected>Choose...</option>
-                              <option value="AB">Alberta</option>
+                              <option value="AB" selected>Alberta</option>
                               <option value="BC">British Columbia</option>
                               <option value="MB">Manitoba</option>
                               <option value="NB">New Brunswick</option>
@@ -63,7 +62,7 @@
                         <div class="form-row">
                           <div class="form-group col-md-6">
                             <label for="inputZip">Postal Code</label>
-                            <input type="text" class="form-control" id="inputZip" placeholder="B3J2G9">
+                            <input type="text" class="form-control" name="inputZip" id="inputZip" placeholder="B3J2G9" required>
                           </div>
                         </div>
                         <button type="submit" class="btn btn-primary">Save</button>
@@ -73,26 +72,25 @@
 
                 <div class="card">
                   <div class="card-body">
-                    <form method="POST" action="savesecondary.php">
+                    <form method="POST" action="insertsecondary.php">
                         <div class="form-group">
                           <h4 class="card-title"><i class="bi bi-building"></i>  Secondary</h4>
                           <label for="inputAddress">Street Address</label>
-                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
                         </div>
                         <div class="form-group">
                           <label for="inputAddress2">Address 2</label>
-                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" required>
                         </div>
                         <div class="form-row">
                           <div class="form-group col-md-6">
                             <label for="inputCity">City</label>
-                            <input type="text" class="form-control" id="inputCity" placeholder="Halifax">
+                            <input type="text" class="form-control" id="inputCity" placeholder="Halifax" required>
                           </div>
                           <div class="form-group col-md-6">
                             <label for="inputState">Province / State</label>
                             <select name="province" id="province" class="form-control">
-                              <option selected>Choose...</option>
-                              <option value="AB">Alberta</option>
+                              <option value="AB" selected>Alberta</option>
                               <option value="BC">British Columbia</option>
                               <option value="MB">Manitoba</option>
                               <option value="NB">New Brunswick</option>
@@ -111,7 +109,7 @@
                         <div class="form-row">
                           <div class="form-group col-md-6">
                             <label for="inputZip">Postal Code</label>
-                            <input type="text" class="form-control" id="inputZip" placeholder="B3J2G9">
+                            <input type="text" class="form-control" id="inputZip" placeholder="B3J2G9" required>
                           </div>
                         </div>
                         <button type="submit" class="btn btn-primary">Save</button>
