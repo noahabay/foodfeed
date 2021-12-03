@@ -17,12 +17,10 @@
                             <h5 class="card-title"><i class="bi bi-exclamation-octagon"></i>Problem</h5>
                             <p class="card-text">
                                 <ul>
-                                    <li>Grocery shopping takes up a lot of time </li>
-                                    <li>It is more efficient for one person to shop for multiple people</li>
-                                    <li>Long drives to grocery stores in some rural areas compound this problem</li>
-                                    <li>Anyone who doesn't own a car in these settings faces additional challenges</li>
-                                    <li>Existing food delivery services often do not operate in rural areas because there is little profit in doing so</li>
-                                    <li>More people are moving to the periphery of cities to reduce their cost of living</li>
+                                    <li>Consumers are charged different prices for the same food orders from different food delivery apps.</li> 
+                                    <li>Food delivery services can vary in price from one to another.</li>
+                                    <li>There’s no quick way to compare the different price across services without filling out order details many times.</li>
+                                    <li>Users may not be aware of all the delivery options available in their area.</li>
                                 </ul>
                             </p>
                         </div>
@@ -35,12 +33,8 @@
                             <h5 class="card-title"><i class="bi bi-signpost-2"></i> Existing Alternatives</h5>
                             <p class="card-text">
                                 <ul>
-                                    <li>Instacart</li>
-                                    <li>Walmart Plus</li>
-                                    <li>Uber (items from 7Eleven)</li>
-                                    <li>Amazon Fresh</li>
-                                    <li>Hello Fresh (Meal kits)</li>
-                                    <li>Goodfood (Meal kits)</li>
+                                    <li>Foodboss: Web platform, available in around ~100 cities in the USA.</li>
+                                    <li>MealMe: iOS application, compares the prices of delivery items.</li>
                                 </ul>
                             </p>
 
@@ -54,11 +48,8 @@
                             <h5 class="card-title"><i class="bi bi-clipboard-data"></i> Key Metrics</h5>
                             <p class="card-text">
                                 <ul>
-                                    <li>Number of people using the Grocery Pool in the rental unit</li>
-                                    <li>Order frequency per building</li>
-                                    <li>Order prices</li>
-                                    <li>Volume/weight of orders</li>
-                                    <li>Customer/tenant satisfaction ratings</li>
+                                    <li>Website visits and app installation counts.</li>
+                                    <li>Number of orders placed through the website.</li>
                                 </ul>
                             </p>
 
@@ -72,11 +63,9 @@
                             <h5 class="card-title"><i class="bi bi-gear"></i> High Level Concept</h5>
                             <p class="card-text">
                                 <ul>
-                                    <li>Developed with Bootstrap, PHP and MySQL</li>
-
+                                    <li>Trivago for Food</li>
                                 </ul>
                             </p>
-
                         </div>
                     </div>
                 </div>
@@ -87,14 +76,12 @@
                             <h5 class="card-title"><i class="bi bi-file-post"></i> Channels</h5>
                             <p class="card-text">
                                 <ul>
-                                    <li>Rental community networking events</li>
-                                    <li>Social media promotion to potential end-users</li>
-                                    <li>Mention in rental brochures and apartment listings</li>
-                                    <li>Business to business promotion with direct mail</li>
+                                    <li>Web/social media advertising</li>
+                                    <li>Out-of-home advertising</li>
+                                    <li>Influencer endorsements</li>
 
                                 </ul>
                             </p>
-
                         </div>
                     </div>
                 </div>
@@ -106,8 +93,7 @@
                             <h5 class="card-title"><i class="bi bi-door-open"></i> Unique Value Proposition</h5>
                             <p class="card-text">
                                 <ul>
-                                    <li>Saves time and money</li>
-                                    <li>Good for helping foster a strong sense of community</li>
+                                    <li>Food is an essential part of our day-to-day lives, and we are helping people save money on every order.</li>
                                 </ul>
                             </p>
 
@@ -121,9 +107,9 @@
                             <h5 class="card-title"><i class="bi bi-trophy"></i> Unfair Advantage</h5>
                             <p class="card-text">
                                 <ul>
-                                    <li>First service of its kind in Halifax area</li>
-                                    <li>Talented team of enthusiastic developers</li>
-
+                                    <li>Access to student only resources</li>
+                                    <li>Proprietary web scraping scripts</li>
+                                    <li>No other company operating a service of this kind in the Canadian market (first mover)</li>
                                 </ul>
                             </p>
                         </div>
@@ -136,11 +122,7 @@
                             <h5 class="card-title"><i class="bi bi-people"></i> Customer Segments</h5>
                             <p class="card-text">
                                 <ul>
-                                    <li>University students</li>
-                                    <li>People with disabilities</li>
-                                    <li>Seniors</li>
-                                    <li>Rural communities</li>
-                                    <li>People too busy to shop</li>
+                                    <li>Age Group: 18 - 45 years</li>
                                 </ul>
                             </p>
                         </div>
@@ -153,8 +135,8 @@
                             <h5 class="card-title"><i class="bi bi-person-check"></i> Early Adopters</h5>
                             <p class="card-text">
                                 <ul>
-                                    <li>People who already already organizing grocery pickups together may be inclined to use a service like this</li>
-                                    <li>Delivery people who may already be engaged in other gig-economy jobs</li>
+                                    <li>“Bargain hunters”, “coupon clippers” and “deal seekers”</li>
+                                    <li>People catering large events, meetings, reunions, etc…</li>
                                 </ul>
                             </p>
                         </div>
@@ -182,8 +164,8 @@
                                     </tr>
                                     <tr>
                                         <td>Development</td>
-                                        <td>400 hours</td>
-                                        <td>$16,000</td>
+                                        <td>800 hours</td>
+                                        <td>$32,000</td>
                                     </tr>
                                     <tr>
                                         <td>Testing</td>
@@ -198,8 +180,8 @@
 
                                     <tr>
                                         <td></td>
-                                        <td><b>590 hours</b></td>
-                                        <td><b>$23,600</b></td>
+                                        <td><b>990 hours</b></td>
+                                        <td><b>$39,600</b></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -244,7 +226,7 @@
 
                                     <tr>
                                         <td>Total</td>
-                                        <td><b>$31,600</b></td>
+                                        <td><b>$47,600</b></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -258,9 +240,7 @@
                             <h5 class="card-title"><i class="bi bi-check2-circle"></i> Solution</h5>
                             <p class="card-text">
                                 <ul>
-                                    <li>Grocery Pool works much like carpooling does - a group of people come together to coordinate grocery pickups</li>
-                                    <li>This helps our customers save time and money</li>
-                                    <li>Grocery Pool helps to minimize the miles driven per food item from store to door, helping to reduce carbon emissions</li>
+                                    <li>A one stop solution, where users can compare the final prices of the same food orders from different food delivery services.</li>
                                 </ul>
                             </p>
                         </div>

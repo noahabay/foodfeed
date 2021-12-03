@@ -12,9 +12,6 @@ include "includes/components/loginmodal.php";
       <li class="nav-item">
         <a class="nav-link" id="abt" href="about.php">About Us</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-item nav-link" id="usr" href="users.php">User</a>
-      </li>
       <?php
       if(isset($_SESSION["userName"])){
         ?>
