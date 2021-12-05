@@ -1,6 +1,15 @@
 <?php include "includes/header.php";
       include "db/db.php";
 
+
+if(!isset($_SESSION["userID"])){
+?>
+<script type="text/javascript">
+  window.location.replace("index.php");
+</script>
+<?php
+}
+
 $querySQL = "select * from blogs";
 
 $rows = $dbconn->query($querySQL);
@@ -24,8 +33,7 @@ $dbconn->close();
                   </div>
                   <div class="col-md-5 col-lg-5">
                     <div class="text-right">
-                      <button class="btn btn-outline-dark" align="right"><a href="addblog.php" style = "text-decoration: none">Add New Blog</a>
-                      </button>
+                      <a class="btn btn-outline-dark" align="right" href="addblog.php" style = "text-decoration: none">Add New Blog</a>
                     </div>
                   </div>
                 </div>

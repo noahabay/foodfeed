@@ -1,5 +1,14 @@
 <?php include "includes/header.php";
 
+
+if(!isset($_SESSION["userID"])){
+?>
+<script type="text/javascript">
+  window.location.replace("index.php");
+</script>
+<?php
+}
+
 if(isset($_POST["title"])){
   $title = $_POST["title"];
 }

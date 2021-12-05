@@ -6,7 +6,7 @@
     session_destroy();
     session_write_close();
     setcookie(session_name('foodfeed'),'',0,'/');
-    session_regenerate_id(true);
+    //session_regenerate_id(true);
 ?>
     <script type="text/javascript">
     	{window.location.replace("index.php");}

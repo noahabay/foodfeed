@@ -23,7 +23,7 @@ function showResult(str) {
     <form  class="form">
         <input type="text" class="form-control" id="homepagesearchbar" placeholder="Search" size="30" onkeyup="showResult(this.value)">
         <button type="submit" class="search-button">
-        <img src="icons/search.png">
+        <img src="images/search.jpg">
         </button>
 
         

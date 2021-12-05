@@ -2,6 +2,14 @@
 include "db/db.php";
 include "includes/header.php";
 
+if(!isset($_SESSION["userID"])){
+?>
+<script type="text/javascript">
+  window.location.replace("index.php");
+</script>
+<?php
+}
+
 $querySQL = "SELECT * from users WHERE userID = {$_SESSION['userID']} limit 1";
 $results = $dbconn->query($querySQL);
 $dbconn->close();
