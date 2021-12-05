@@ -52,8 +52,12 @@ else{
         //If the password is correct, we can set the SESSION userName and userID values:
         $_SESSION["userName"] = $username;
         $_SESSION["userID"] = $userID;
-        //Redirect the user 
-        header("Location: index.php");
+        //Redirect the user
+        ?>
+        <script type="text/javascript">
+            window.location.replace("index.php");
+        </script>
+        <?php
     }else{
         //If password incorrect then Set the username or password incorrect value to TRUE
         $incorrect = TRUE;

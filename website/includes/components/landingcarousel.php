@@ -51,8 +51,9 @@
                                 <i class="bi bi-cup-straw"></i>
                             </div>
                             <p class="card-text"><b>Food<i class="bi bi-egg-fried egg-icon"></i>Feed</b> checks the prices of menu items available on takeout services like UberEats, DoorDash, Postmates, FoodHWY and finds the best prices based on the menu item pricing, delivery charges and incidental fees.</p>
-
-                            <a href="#" class="btn btn-success">Find out more</a>
+                            <center>
+                            	<a href="team.php" class="btn btn-success">Our Team</a>
+                            </center>
                         </div>
                     </div>
                 </div>
@@ -62,9 +63,10 @@
                             <div class = "infographics">
                                 <i class="bi bi-basket3"></i>
                             </div>
-                            <p class="card-text">We are now serving with redirecting your entire cart to the respective food service provider. With <b>Food<i class="bi bi-egg-fried egg-icon"></i>Feed</b>, you can now easily compare the best prices and do checkout to make an order.</p>
-
-                            <a href="#" class="btn btn-success">Find out more</a>
+                            <p class="card-text">We are now serving with redirecting your entire cart to the respective food service provider. With <b>Food<i class="bi bi-egg-fried egg-icon"></i>Feed</b>, you can now easily compare the best prices and do checkout to make an order. You can save much more with delivery charges comparison and much more!!</p>
+							<center>
+                            	<a href="about.php" class="btn btn-success">About FoodFeed</a>
+                            </center>
                         </div>
                     </div>
                 </div>

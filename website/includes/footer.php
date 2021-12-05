@@ -1,4 +1,9 @@
-<?php ?>
+<?php 
+
+if (isset($_SESSION['userID'])) {
+	$userId = $_SESSION['userID'];	
+}
+?>
 
 <div class="bg-dark">
 	<div class="row" style="color: white; margin-right: 0px;">
@@ -29,7 +34,7 @@
 				
 					<p><i class="bi bi-people"></i><a class="margin-left-10" href="about.php">About Us</a></p>
 				
-					<p><i class="bi bi-brush"></i><a class="margin-left-10" href="blogs.php">Blogs</a></p>
+					<?php if(isset($userId)){ ?><p><i class="bi bi-brush"></i><a class="margin-left-10" href="blogs.php">Blogs</a></p> <?php } else { ?><p><i class="bi bi-brush"></i><a class="margin-left-10" href="team.php">Team</a></p> <?php } ?>
 			</div>
 		</div>
 		<div class="col-lg-3">

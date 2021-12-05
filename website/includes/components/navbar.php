@@ -7,6 +7,9 @@ include "includes/components/loginmodal.php";
   if(currentlocation=="http://localhost/foodfeed/website/about.php"){
     document.getElementById("abt").classList.add("active");
   }
+  else if(currentlocation=="http://localhost/foodfeed/website/team.php"){
+    document.getElementById("tm").classList.add("active");
+  }
   else if(currentlocation=="http://localhost/foodfeed/website/users.php"){
     document.getElementById("usr").classList.add("active");
   }
@@ -24,6 +27,9 @@ include "includes/components/loginmodal.php";
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
         <a class="nav-link" id="abt" href="about.php">About Us</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" id="tm" href="team.php">Team</a>
       </li>
       <?php
       if(isset($_SESSION["userName"])){

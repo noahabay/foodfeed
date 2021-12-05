@@ -17,7 +17,7 @@
                 	</div>
                 	<div class="col-lg-2">
 		                <div class="text-right">
-		                  <button class="btn btn-outline-dark" align="right"><a href="leancanvas.php" style = "text-decoration: none">Our Lean Canvas</a>
+		                  <button class="btn btn-outline-dark" align="right"><a href="team.php" style = "text-decoration: none">Our Team</a>
 		                  </button>
 		                </div>
 	                </div>
