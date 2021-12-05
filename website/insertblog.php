@@ -4,7 +4,7 @@ include "db/db.php";
 
 $blogtitle = $_POST["blogtitle"];
 $description = $_POST["description"];
-$userId = $_SESSION['userID'];
+$userId = $_SESSION["userID"];
 
 if(isset($_POST["blog_id"])){
 $blog_id = $_POST["blog_id"];
