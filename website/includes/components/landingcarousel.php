@@ -1,4 +1,4 @@
-<div id = "outerWrap">
+<section id = "outerWrap">
     <div id = "layer1">
         <div id="carousel-background" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
@@ -76,11 +76,11 @@
  		<p>
 			Managing work-life and food together is tedious, and we are here to give you the best option available for your food from the favourite restaurant to get delivered. Saving money with flexibility is the evolving factor of FoodFeed. This is not merely a food comparison application, but this will go a long way toward making this significant and necessary change in the lives of all of us. We, here at FoodFeed trying to do our part by supporting you to save your money. 
  		</p>
-
         </div>
     </div>
-</div>
+</section>
 
+</body>
+</html>
 
-
-
+<script src="scripts/mapping.js"></script>

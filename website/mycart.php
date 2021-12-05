@@ -21,9 +21,9 @@
                       <a href="https://www.ubereats.com"><button type="button" class="btn btn-primary" aria-expanded="false">
                       Order Now!
                       </button></a>
-                      <button type="button" class="btn btn-danger" aria-expanded="false">
+                      <a href="index.php"><button type="button" class="btn btn-danger" aria-expanded="false">
                       Discard
-                      </button>
+                      </button></a>
                     </div>
               </div>
             </div>
@@ -46,9 +46,9 @@
                       <a href="https://www.skipthedishes.com/"><button type="button" class="btn btn-primary" aria-expanded="false">
                       Order Now!
                       </button></a>
-                      <button type="button" class="btn btn-danger" aria-expanded="false">
+                      <a href="index.php"><button type="button" class="btn btn-danger" aria-expanded="false">
                       Discard
-                      </button>
+                      </button></a>
                     </div>
               </div>
             </div>
@@ -71,9 +71,9 @@
                   <a href="https://www.doordash.com"><button type="button" class="btn btn-primary" aria-expanded="false">
                   Order Now!
                   </button></a>
-                  <button type="button" class="btn btn-danger" aria-expanded="false" onclick="">
+                  <a href="index.php"><button type="button" class="btn btn-danger" aria-expanded="false" onclick="">
                   Discard
-                  </button>
+                  </button></a>
                 </div>
               </div>
             </div>

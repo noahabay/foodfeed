@@ -1,8 +1,19 @@
-<?php include "includes/header.php" ?>
+<?php include "includes/header.php";
+
+if(isset($_POST["title"])){
+  $title = $_POST["title"];
+}
+if(isset($_POST["description"])){
+  $description = $_POST["description"];
+}
+if(isset($_POST["blog_id"])){
+  $blog_id = $_POST["blog_id"];
+}
+?>
 
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-4">Add New Blog</h1>
+    <h1 class="display-4"><?php if(isset($_POST["blog_id"])){ echo "Edit Blog"; } else { echo "Add New Blog";}?></h1>
   </div>
 </div>
 
@@ -18,7 +29,7 @@
                         <label for="blogtitle">Blog Title:</label>
                       </div>
                       <div class="col-lg-10 col-md-10">
-                        <input type="text" class="form-control" id="blogtitle" name="blogtitle" placeholder="Enter Blog Title Here" required>
+                        <input type="text" class="form-control" id="blogtitle" name="blogtitle" value="<?php if(isset($title)){echo $title;}?>" placeholder="Enter Blog Title Here" required>
                       </div>
                     </div>
                   </div>
@@ -28,10 +39,13 @@
                         <label for="description">Blog Description</label>
                       </div>
                       <div class="col-lg-10 col-md-10">
-                        <textarea class="form-control" id="description" rows="3" name="description" placeholder="Enter Blog Description Here" required></textarea>
+                        <textarea class="form-control" id="description" rows="6" name="description" placeholder="Enter Blog Description Here" required><?php if(isset($description)){echo $description;}?></textarea>
                       </div>
                     </div>
                   </div>
+                  <?php if(isset($blog_id)){?>
+                    <input type="hidden" id="blog_id" name="blog_id" value=<?php if(isset($blog_id)){echo $blog_id;}?>>
+                  <?php }?>
                   <div class="form-group">
                     <center>
                       <button type="submit" class="btn btn-success btn-lg"><a style = "text-decoration: none">Submit</a>

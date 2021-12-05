@@ -88,6 +88,10 @@ foreach($secondaryresults as $res){
                         </div>
                         <button type="submit" class="btn btn-primary">Save</button>
                       </form>
+                      <br>
+                      <form method="POST" action="deletepaddress.php">
+                        <button type="submit" class="btn btn-danger">Discard</button>
+                      </form>
                     </div>
                 </div>
 
@@ -97,16 +101,16 @@ foreach($secondaryresults as $res){
                         <div class="form-group">
                           <h4 class="card-title"><i class="bi bi-building"></i>  Secondary</h4>
                           <label for="inputAddress">Street Address</label>
-                          <input type="text" class="form-control" value="<?php if(isset($s_result['streetname'])){echo $s_result['streetname'];}?>" id="inputAddress" placeholder="1234 Main St" required>
+                          <input type="text" class="form-control" value="<?php if(isset($s_result['streetname'])){echo $s_result['streetname'];}?>" id="inputAddress" name="inputAddress" placeholder="1234 Main St" required>
                         </div>
                         <div class="form-group">
                           <label for="inputAddress2">Address 2</label>
-                          <input type="text" class="form-control" value="<?php if(isset($s_result['address2'])){echo $s_result['address2'];}?>" id="inputAddress2" placeholder="Apartment, studio, or floor" required>
+                          <input type="text" class="form-control" value="<?php if(isset($s_result['address2'])){echo $s_result['address2'];}?>" id="inputAddress2" name="inputAddress2" placeholder="Apartment, studio, or floor" required>
                         </div>
                         <div class="form-row">
                           <div class="form-group col-md-6">
                             <label for="inputCity">City</label>
-                            <input type="text" class="form-control" value="<?php if(isset($s_result['city'])){echo $s_result['city'];}?>" id="inputCity" placeholder="Halifax" required>
+                            <input type="text" class="form-control" value="<?php if(isset($s_result['city'])){echo $s_result['city'];}?>" id="inputCity" name="inputCity" placeholder="Halifax" required>
                           </div>
                           <div class="form-group col-md-6">
                             <label for="inputState">Province / State</label>
@@ -130,10 +134,14 @@ foreach($secondaryresults as $res){
                         <div class="form-row">
                           <div class="form-group col-md-6">
                             <label for="inputZip">Postal Code</label>
-                            <input type="text" class="form-control" value="<?php if(isset($s_result['postalCode'])){echo $s_result['postalCode'];}?>" id="inputZip" placeholder="B3J2G9" required>
+                            <input type="text" class="form-control" value="<?php if(isset($s_result['postalCode'])){echo $s_result['postalCode'];}?>" id="inputZip" name="inputZip" placeholder="B3J2G9" required>
                           </div>
                         </div>
                         <button type="submit" class="btn btn-primary">Save</button>
+                      </form>
+                      <br>
+                      <form id="form2" method="POST" action="deletesaddress.php">
+                        <button type="submit" class="btn btn-danger">Discard</button>
                       </form>
                     </div>
                 </div>

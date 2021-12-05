@@ -34,9 +34,9 @@ $dbconn->close();
                     <?php
                     foreach($rows as $row){
                       echo '<li class="blogs list-group-item">';
-                      echo '<p><b>';
+                      echo '<div class="row"><div class="col-md-8"><b>';
                       echo $row['title'];
-                      echo '</b></p>';
+                      echo '</b></div><div class="col-md-2 text-right"><form method="post" action="addblog.php"><input type="hidden" name="blog_id" value='.$row['blog_id'].'><input type="hidden" name="description" value="'.$row['description'].'"><input type="hidden" name="title" value="'.$row['title'].'"><button type="submit" class="btn btn-lg btn-primary">Edit</button></form></div><div class="col-md-2 text-right"><form method="post" action="deleteblog.php"><input type="hidden" name="blog_id" value='.$row['blog_id'].'><button type="submit" class="btn btn-lg btn-danger">Delete</button></form></div></div>';
                       echo '<p>';
                       echo $row['description'];
                       echo '</p>';
