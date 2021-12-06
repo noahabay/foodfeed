@@ -11,7 +11,7 @@
 
 ## Getting Started
 
-**Are there any potential issues for scaling the prototype beyond a subset of users? Examples: reliance on a single server to handle the demand, coded for a specific platform
+**Are there any potential issues for scaling the prototype beyond a subset of users? Examples: reliance on a single server to handle the demand, coded for a specific platform**
 
 No, There are none issue with the scaling. Currently we have deployed it on 000webhost's free service. We are ready for scaling the prototype to the paid version which is having more relaible servers and Database capacity including daily  backups and extended security.
 
